@@ -21,7 +21,7 @@ def guess_format_checker(input_text):
 print(art.logo)
 print("Welcome to the Cows and Bulls Game!")
 print(f"Try to guess a {no_of_digits}-digit number!")
-print(f"Type \"{secret_password}\" exit at any prompt to exit.\n")
+print(f"Type \"{secret_password}\" to end this game at any prompt.\n")
 chosen_digits = generate_rand_num(no_of_digits)
 
 game_over = False
